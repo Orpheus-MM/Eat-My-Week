@@ -63,6 +63,16 @@ export const social = {
   body: 'Brunch Saturday. Date night Thursday. Tacos with the group chat whenever. Keep it all on one calendar.',
   cta: 'See how it works',
   image: 'Friends at dinner',
+  integrationsLabel: 'Plays nice with',
+  // Drop logo files in public/logos/ and set e.g. logo: 'logos/opentable.svg'. Text wordmark shows until then.
+  integrations: [
+    { name: 'Places by Raya', logo: null },
+    { name: 'OpenTable', logo: null },
+    { name: 'Resy', logo: null },
+    { name: 'Too Good To Go', logo: null },
+    { name: 'Tinder Double Date', logo: null },
+    { name: 'Red Book Dining', logo: null },
+  ],
 }
 
 export const banner = {
